@@ -3,7 +3,7 @@ A simple hangman game
 Demo: https://mlum23.github.io/hangman  
   
   
-Tech Stack:  
+## Tech Stack 
 * HTML
 * CSS
 * JavaScript
