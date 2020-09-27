@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>F11 Hangman</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    <script src="./js/database.js"></script>
+</head>
+
+<body>
+
+    <div id="win_screen">
+        <h3>YOU WIN!</h3>
+        <h5 id="win_score">Score: </h5>
+    </div>
+
+    <div id="lose_screen">
+        <h3>YOU LOSE!</h3>
+        <h5 id="lose_score">Score: </h5>
+    </div>
+
+    <div id="leader_board">
+        <h3>LEADER BOARD</h3>
+    </div>
+
+
+    <div id="top">
+        <div id="score">SCORE: 0</div>
+        <div id="lives">LIVES: 7</div>
+    </div>
+    <div class="center" id="word"></div>
+    <div class="center" id="definition"></div>
+    <div class="center" id="buttons"></div>
+    <div class="center" id="restart"><button id="restart_button">Restart</button></div>
+
+
+    <script src="./js/generateWord.js"></script>
+    <script src="./js/button_logic.js"></script>
+    <script src="./js/gameLogic.js"></script>
+</body>
+
+</html>

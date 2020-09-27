@@ -1,0 +1,209 @@
+.center {
+    text-align: center;
+}
+
+#top{
+    margin: 1vmax;
+}
+
+@media only screen and (min-width: 600px) {
+    #buttons{ /*button div*/
+        margin: 5vmax 0;
+    }
+
+    .button{
+        border-radius:0.8vmax;
+        color: white;
+        background-color: slategray;
+        padding: 1vmax 2vmax;
+        border: 2px solid white;
+        width: 6vmax;
+        height: 4vmax;
+        text-align: center;
+        font-size: 1.8vmax;
+        margin: 0.2vmax;
+        outline: none;
+        
+    }
+
+    #word span {
+        font-size: 10vmax;
+        margin-right: 2%;
+    }
+
+    #definition{
+        margin: 1vmax;
+        font-size: 2vmax
+    }
+
+    #lives{
+        float: right;
+        margin: 1vmax;
+    }
+    #lives, #score{
+        display: inline-block;
+        font-size: 2vmax;
+    }
+    
+    #score{
+        margin: 1vmax;
+    }
+
+    #restart_button, #submit_button{
+        border-radius:0.8vmax;
+        color: white;
+        background-color: #4d4d4d;
+        padding: 1vmax 2vmax;
+        border: 2px solid white;
+        width: 12vmax;
+        height: 4.5vmax;
+        text-align: center;
+        font-size: 2vmax;
+        outline: none;
+        
+    }
+    #play_again_button{
+        border-radius:0.8vmax;
+        color: white;
+        background-color: #4d4d4d;
+        padding: 1vmax 2vmax;
+        border: 2px solid white;
+        width: 12vmax;
+        height: 4.5vmax;
+        text-align: center;
+        font-size: 1.5vmax;
+        outline: none;
+        margin-bottom: 1%;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #word {
+        margin-top: 10%;
+    }
+
+    #word span {
+        font-size: 6vmax;
+        margin-right: 2%;
+    }
+
+    #definition{
+        margin: 1vmax;
+        font-size: 3vmax
+    }
+
+    #lives, #score{
+        display: inline-block;
+        font-size: 3.5vmax;
+    }
+
+    .button{
+        border-radius:1.5vmax;
+        color: white;
+        background-color: slategray;
+        padding: 1.7vmax 0.8vmax; /*text dist from button edges*/
+        border: 2px solid white;
+        width: 9vmax;
+        height: 8vmax;
+        text-align: center;
+        font-size: 4vmax;
+        margin-top: 0.1vmax; /*dist b/t buttons*/
+        outline: none;
+    }
+
+    #buttons{ /*button div*/
+        margin-top: 5vmax;
+        margin-bottom: 2vmax;
+    }
+
+    #restart_button, #submit_button{
+        border-radius:1.5vmax;
+        color: white;
+        background-color: #4d4d4d;
+        padding: 1vmax 2vmax;
+        border: 2px solid white;
+        width: 20vmax;
+        height: 7vmax;
+        text-align: center;
+        font-size: 3.5vmax;
+        outline: none;
+    }
+    #play_again_button{
+        border-radius:1.5vmax;
+        color: white;
+        background-color: #4d4d4d;
+        padding: 1vmax 2vmax;
+        border: 2px solid white;
+        width: 33vmax;
+        height: 7vmax;
+        text-align: center;
+        font-size: 3.5vmax;
+        outline: none;  
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;  
+    }
+} 
+
+
+#lives{
+    float: right;
+    margin: 1vmax;
+}
+
+#score{
+    margin: 1vmax;
+}
+
+#restart_button:hover, #submit_button:hover, .button:hover, #play_again_button:hover{
+    background-color: rgb(126, 121, 121);
+    cursor: pointer;
+}
+
+
+#score_form{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    text-align: center;
+    font-size: 4vmax;
+    background-color: white;
+}
+
+#score_form h3{
+    background-color: slategray;
+    margin-top: 0;
+}
+
+#submit_name{
+    display: block;
+    margin: auto;
+    width: 30vmax;
+    height: 5vmax;
+    font-size: 3vmax;
+    margin-bottom: 5vmax;
+}
+
+#leader_board h3{
+    background-color: slategray;
+    margin-top: 0;
+}
+
+#win_screen, #lose_screen, #leader_board{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    text-align: center;
+    font-size: 4vmax;
+    background-color: white;
+}
+    
