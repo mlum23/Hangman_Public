@@ -12,4 +12,4 @@ Demo: https://mlum23.github.io/hangman
   
 
 
-![Hangman](https://github.com/mlum23/hangman/blob/master/img/hangman.png?raw=true)
+![Hangman](sample.png)
