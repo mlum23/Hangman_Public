@@ -1,5 +1,5 @@
 # Hangman
-A simple hangman game  
+A simple hangman game created as a class project.
 Demo: https://mlum23.github.io/hangman  
   
   
@@ -12,4 +12,4 @@ Demo: https://mlum23.github.io/hangman
   
 
 
-![Hangman](sample.png)
+(sample.png)
