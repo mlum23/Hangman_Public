@@ -11,5 +11,5 @@ Demo: https://mlum23.github.io/hangman
   
   
 
+[![Demo](sample.png)](https://mlum23.github.io/hangman  )
 
-(sample.png)
